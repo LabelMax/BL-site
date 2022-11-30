@@ -176,13 +176,15 @@ body {
 }
 
 .vk_icon {
+
   position: absolute;
   left: 1158.52px;
-  top: 25px;
+  top: 24px;
 
 }
 
 .inst_icon {
+
   position: absolute;
   left: 1200px;
   top: 30px;
