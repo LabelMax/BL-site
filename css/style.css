@@ -183,10 +183,76 @@ body {
 
 }
 
+.text_services {
+  margin: 250px 0px 0px 100px;
+  font-size: 48px;
+}
+
 .inst_icon {
 
   position: absolute;
   left: 1200px;
   top: 30px;
 
+}
+.swiper{
+  position: absolute;
+  width: 657px;
+  height: 383px;
+  left: 535px;
+  top: 918px;
+  z-index: 0;
+
+}
+
+
+.swiper-slide{
+  text-align: center;
+  font-size: 18px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img{
+  width: 80%;
+  object-fit: cover;
+  background-color: black;
+
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  right: 0px !important; 
+  left: auto;
+  color: #D24141;
+
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  left: 0px !important; 
+  right: auto;
+  color: #D24141;
+}
+
+
+.usl_button {
+  position: absolute;
+  left: 530px;
+  top: 1170px;
+  z-index: 1;
+}
+
+.red_button_usl {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px 0px 0px 80px;
+  width: 300px;
+  height: 50px;
+
+
+  background-image: url("../Img/knopka.svg");
+  background-repeat: no-repeat;
+  color: #fff;
 }
